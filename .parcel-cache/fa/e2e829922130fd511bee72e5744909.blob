@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/favicon/koala.ico" />
-    <link rel="stylesheet" href="./scss/main.scss" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="8f74daa89912f1d9ce4bf81b03ac2d9c">
+    <link rel="stylesheet" href="c5a487740cbe25559d2a5d6f92b16334">
     <title>Frontend Mentor Pricing Component with Toggle</title>
   </head>
   <body>
     <!-- bg patterns -->
-    <img class="bg-pattern bg-pattern--top" src="./images/bg-top.svg" alt="" />
-    <img
-      class="bg-pattern bg-pattern--bottom"
-      src="./images/bg-bottom.svg"
-      alt=""
-    />
+    <img class="bg-pattern bg-pattern--top" src="935e06273ea4446f53848be08da66303" alt="">
+    <img class="bg-pattern bg-pattern--bottom" src="6383a298a0c9021c34dceba14d2f2fae" alt="">
 
     <!-- header -->
     <header class="header" data-aos="fade-in">
@@ -23,7 +19,7 @@
       <div class="toggle">
         <h5 class="toggle__option">Annually</h5>
         <label class="switch">
-          <input type="checkbox" class="switch__checkbox" />
+          <input type="checkbox" class="switch__checkbox">
           <span class="switch__toggle"></span>
         </label>
         <h5 class="toggle__option">Monthly</h5>
@@ -70,25 +66,15 @@
     <article class="tag">
       <h3 class="tag__heading">
         /* project for
-        <a
-          href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC"
-          target="_blank"
-          class="tag__link"
-        >
-          frontend mentor</a
-        >
+        <a href="c540adb2cb1ee6a739b7e6e85b0bf934" target="_blank" class="tag__link">
+          frontend mentor</a>
         coded by
-        <a
-          href="https://github.com/habibdev96"
-          target="_blank"
-          class="tag__link"
-          >habibdev</a
-        >
+        <a href="07e1722c7e1ba1eb4c55425b859ca62b" target="_blank" class="tag__link">habibdev</a>
         */
       </h3>
-      <img src="./images/logo/habibdevgif.gif" alt="logo" class="tag__logo" />
+      <img src="c6c4a962574a812b482afc3c55fe7a61" alt="logo" class="tag__logo">
     </article>
 
-    <script src="./js/main.js"></script>
+    <script src="47a1e91e9a9d249ef9a8672be180ab3b"></script>
   </body>
 </html>

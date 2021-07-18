@@ -22,7 +22,7 @@
   width: 30%;
 
   @media (max-width: 600px) {
-    width: 75%;
+    width: 50%;
   }
 }
 
@@ -51,5 +51,37 @@
   @media (max-width: 850px) {
     grid-template-columns: 1fr;
     gap: 5rem;
+  }
+}
+
+// tag
+.tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 2rem 2rem 1rem 2rem;
+  margin-top: 5rem;
+  position: relative;
+  z-index: 5;
+
+  &__heading {
+    font-size: size(xs);
+    color: color(black);
+  }
+
+  &__link {
+    color: color(gradientOne);
+    outline: 0;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  &__logo {
+    width: 5rem;
   }
 }

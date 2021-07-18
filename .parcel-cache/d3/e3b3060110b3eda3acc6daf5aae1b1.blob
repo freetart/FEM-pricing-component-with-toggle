@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/favicon/koala.ico" />
-    <link rel="stylesheet" href="./scss/main.scss" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/koala.HASH_REF_d9f4ce5b0188c9f52970a861e09c68a6.ico">
+    <link rel="stylesheet" href="/index.HASH_REF_7ecf845c0afebce3fff7e35cae4303c5.css">
     <title>Frontend Mentor Pricing Component with Toggle</title>
   </head>
   <body>
     <!-- bg patterns -->
-    <img class="bg-pattern bg-pattern--top" src="./images/bg-top.svg" alt="" />
-    <img
-      class="bg-pattern bg-pattern--bottom"
-      src="./images/bg-bottom.svg"
-      alt=""
-    />
+    <img class="bg-pattern bg-pattern--top" src="/bg-top.HASH_REF_8187dfbe3e738eb39cebfca6c30d830f.svg" alt="">
+    <img class="bg-pattern bg-pattern--bottom" src="/bg-bottom.HASH_REF_1e59ca28af54ef8576555d76d9d882f9.svg" alt="">
 
     <!-- header -->
     <header class="header" data-aos="fade-in">
@@ -23,7 +19,7 @@
       <div class="toggle">
         <h5 class="toggle__option">Annually</h5>
         <label class="switch">
-          <input type="checkbox" class="switch__checkbox" />
+          <input type="checkbox" class="switch__checkbox">
           <span class="switch__toggle"></span>
         </label>
         <h5 class="toggle__option">Monthly</h5>
@@ -70,25 +66,15 @@
     <article class="tag">
       <h3 class="tag__heading">
         /* project for
-        <a
-          href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC"
-          target="_blank"
-          class="tag__link"
-        >
-          frontend mentor</a
-        >
+        <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" target="_blank" class="tag__link">
+          frontend mentor</a>
         coded by
-        <a
-          href="https://github.com/habibdev96"
-          target="_blank"
-          class="tag__link"
-          >habibdev</a
-        >
+        <a href="https://github.com/habibdev96" target="_blank" class="tag__link">habibdev</a>
         */
       </h3>
-      <img src="./images/logo/habibdevgif.gif" alt="logo" class="tag__logo" />
+      <img src="/habibdevgif.HASH_REF_f2af8f93353f75c938a88aa9091353ce.gif" alt="logo" class="tag__logo">
     </article>
 
-    <script src="./js/main.js"></script>
+    <script src="/index.HASH_REF_e0dcefe8574811b2e7c6ae8a4ee429df.js"></script>
   </body>
 </html>
