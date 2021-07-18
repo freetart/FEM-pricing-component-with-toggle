@@ -1,2 +1,19 @@
 // imports
 @use "../abstracts/abstracts" as *;
+
+// bg patterns
+.bg-pattern {
+  position: absolute;
+}
+
+.bg-pattern--top {
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+
+.bg-pattern--bottom {
+  bottom: -10%;
+  left: 0;
+  width: 30%;
+}

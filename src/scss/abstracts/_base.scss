@@ -20,7 +20,14 @@ html {
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: color(veryLightGrayishBlue);
+  position: relative;
+  overflow-x: hidden;
 }
 
 a {
