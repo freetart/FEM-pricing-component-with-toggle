@@ -199,20 +199,10 @@ input {
   right: 0;
   width: 30%;
 }
-@media (max-width: 600px) {
-  .bg-pattern--top {
-    width: 50%;
-  }
-}
 .bg-pattern--bottom {
   bottom: -10%;
   left: 0;
   width: 30%;
-}
-@media (max-width: 600px) {
-  .bg-pattern--bottom {
-    width: 75%;
-  }
 }
 .header {
   padding: 5rem 2rem;
@@ -240,3 +230,4 @@ input {
     gap: 5rem;
   }
 }
+/*# sourceMappingURL=index.HASH_REF_7ecf845c0afebce3fff7e35cae4303c5.css.map */
