@@ -20,6 +20,8 @@
 
 // header
 .header {
+  @include sectionSpacing;
+
   &__title {
     @include headingStyles;
     text-align: center;
@@ -27,4 +29,12 @@
     color: color(grayishBlue);
     margin-bottom: 2rem;
   }
+}
+
+// cards
+.cards {
+  @include sectionSpacing;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }

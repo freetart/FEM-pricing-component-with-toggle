@@ -63,6 +63,77 @@ input {
   color: #b3b5c6;
   font-size: 1.8rem;
 }
+.card {
+  color: black;
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0.1rem 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+.card--primary {
+  background: linear-gradient(#a3a8f0, #696fdd);
+  color: white;
+  transform: scale(1.1);
+  z-index: 5;
+}
+.card--primary .card__plan,
+.card--primary .card__price,
+.card--primary .card__item {
+  color: #f6f6fe;
+}
+.card--primary .card__item {
+  border-top: 0.1rem solid #f6f6fe;
+}
+.card__plan {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  color: #494c5f;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.card__price {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  color: #494c5f;
+  font-size: 5.5rem;
+  padding: 2rem;
+}
+.card__item {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  color: #494c5f;
+  font-size: 1.4rem;
+  border-top: 0.1rem solid #b3b5c6;
+  padding: 2rem;
+}
+.btn {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+.btn--primary {
+  background: #f6f6fe;
+  color: #696fdd;
+}
+.btn--secondary {
+  background: linear-gradient(to right, #a3a8f0, #696fdd);
+  color: #f6f6fe;
+}
 .bg-pattern {
   position: absolute;
 }
@@ -76,6 +147,9 @@ input {
   left: 0;
   width: 30%;
 }
+.header {
+  padding: 5rem 2rem;
+}
 .header__title {
   font-weight: 700;
   letter-spacing: 0.1rem;
@@ -84,5 +158,11 @@ input {
   font-size: 4.5rem;
   color: #6d708d;
   margin-bottom: 2rem;
+}
+.cards {
+  padding: 5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 /*# sourceMappingURL=index.ae4303c5.css.map */

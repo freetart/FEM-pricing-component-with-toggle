@@ -14,3 +14,82 @@
     font-size: size(sm);
   }
 }
+
+// card
+.card {
+  color: color(black);
+  background-color: color(white);
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0.1rem 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+
+  &--primary {
+    background: linear-gradient(color(gradientOne), color(gradientTwo));
+    color: color(white);
+    transform: scale(1.1);
+    z-index: 5;
+
+    .card__plan,
+    .card__price,
+    .card__item {
+      color: color(veryLightGrayishBlue);
+    }
+
+    .card__item {
+      border-top: 0.1rem solid color(veryLightGrayishBlue);
+    }
+  }
+
+  &__plan {
+    @include headingStyles;
+    color: color(darkGrayishBlue);
+    font-size: size(md);
+    padding: 1rem;
+  }
+
+  &__price {
+    @include headingStyles;
+    color: color(darkGrayishBlue);
+    font-size: size(xxl) + 2rem;
+    padding: 2rem;
+  }
+
+  &__item {
+    @include headingStyles;
+    color: color(darkGrayishBlue);
+    font-size: size(xs) - 0.2rem;
+    border-top: 0.1rem solid color(lightGrayishBlue);
+    padding: 2rem;
+  }
+}
+
+// buttons
+.btn {
+  @include headingStyles;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  font-size: size(xxs);
+  border-radius: 1rem;
+  text-transform: uppercase;
+
+  &--primary {
+    background: color(veryLightGrayishBlue);
+    color: color(gradientTwo);
+  }
+
+  &--secondary {
+    background: linear-gradient(
+      to right,
+      color(gradientOne),
+      color(gradientTwo)
+    );
+    color: color(veryLightGrayishBlue);
+  }
+}

@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #f6f6fe;
+  position: relative;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+input {
+  font-family: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+*::before,
+*::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.toggle__option {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  color: #b3b5c6;
+  font-size: 1.8rem;
+}
+.card {
+  color: black;
+  background-color: white;
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0.1rem 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+.card--primary {
+  background: linear-gradient(#a3a8f0, #696fdd);
+  color: white;
+  transform: scale(1.1);
+  z-index: 5;
+}
+.card--primary .card__plan,
+.card--primary .card__price,
+.card--primary .card__item {
+  color: #f6f6fe;
+}
+.card--primary .card__item {
+  border-top: 0.1rem solid #f6f6fe;
+}
+.card__plan {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  color: #494c5f;
+  font-size: 2rem;
+}
+.card__price {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  color: #494c5f;
+  font-size: 5.5rem;
+  padding: 2rem;
+}
+.card__item {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  color: #494c5f;
+  font-size: 1.6rem;
+  border-top: 0.1rem solid #b3b5c6;
+  padding: 2rem;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+.btn--primary {
+  background: white;
+}
+.btn--secondary {
+  background: linear-gradient(to right, #a3a8f0, #696fdd);
+}
+.bg-pattern {
+  position: absolute;
+}
+.bg-pattern--top {
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+.bg-pattern--bottom {
+  bottom: -10%;
+  left: 0;
+  width: 30%;
+}
+.header {
+  padding: 5rem 2rem;
+}
+.header__title {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  text-align: center;
+  font-size: 4.5rem;
+  color: #6d708d;
+  margin-bottom: 2rem;
+}
+.cards {
+  padding: 5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+/*# sourceMappingURL=index.HASH_REF_7ecf845c0afebce3fff7e35cae4303c5.css.map */
