@@ -1,6 +1,0 @@
-"use scrict";
-const toggle = document.querySelector(".switch__checkbox").checked;
-const basicPrice = document.querySelector("#basic-price");
-const proPrice = document.querySelector("#pro-price");
-const masterPrice = document.querySelector("#master-price");
-if (toggle) basicPrice.innerText = "$";
