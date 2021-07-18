@@ -2,6 +2,8 @@
 
 pricing component challenge for frontend mentor
 
+site: https://fem-pricing-component-with-toggle-challenge.netlify.app/
+
 #### Features
 - price toggle
 - responsive design
