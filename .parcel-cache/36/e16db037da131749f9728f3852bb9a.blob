@@ -98,9 +98,6 @@ input {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.switch__checkbox:checked + .switch__toggle {
-  background-color: pink;
-}
 .switch__checkbox:checked + .switch__toggle:before {
   -webkit-transform: translateX(1.95rem);
   -ms-transform: translateX(1.95rem);
@@ -208,3 +205,4 @@ input {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+/*# sourceMappingURL=index.HASH_REF_7ecf845c0afebce3fff7e35cae4303c5.css.map */

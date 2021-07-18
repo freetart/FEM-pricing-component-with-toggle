@@ -82,9 +82,9 @@ input {
   right: 0;
   bottom: 0;
   border-radius: 2.55rem;
-  background: linear-gradient(#a3a8f0, #696fdd);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  background-color: var(--light-grayish-blue-100);
+  -webkit-transition: var(--main-transition);
+  transition: var(--main-transition);
 }
 .switch__toggle:before {
   position: absolute;
@@ -95,11 +95,11 @@ input {
   bottom: 0.3rem;
   background-color: white;
   border-radius: 50%;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: var(--main-transition);
+  transition: var(--main-transition);
 }
 .switch__checkbox:checked + .switch__toggle {
-  background-color: pink;
+  background-color: var(--strong-cyan);
 }
 .switch__checkbox:checked + .switch__toggle:before {
   -webkit-transform: translateX(1.95rem);
@@ -208,3 +208,4 @@ input {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+/*# sourceMappingURL=index.HASH_REF_7ecf845c0afebce3fff7e35cae4303c5.css.map */

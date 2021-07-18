@@ -63,18 +63,18 @@ input {
   color: #b3b5c6;
   font-size: 1.8rem;
 }
-.switch {
+.toggle .switch {
   position: relative;
   display: inline-block;
   width: 4.5rem;
   height: 2.55rem;
 }
-.switch__checkbox {
+.toggle .switch__checkbox {
   opacity: 0;
   width: 0;
   height: 0;
 }
-.switch__toggle {
+.toggle .switch__toggle {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -82,11 +82,11 @@ input {
   right: 0;
   bottom: 0;
   border-radius: 2.55rem;
-  background: linear-gradient(#a3a8f0, #696fdd);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  background-color: var(--light-grayish-blue-100);
+  -webkit-transition: var(--main-transition);
+  transition: var(--main-transition);
 }
-.switch__toggle:before {
+.toggle .switch__toggle:before {
   position: absolute;
   content: "";
   height: 1.95rem;
@@ -95,13 +95,13 @@ input {
   bottom: 0.3rem;
   background-color: white;
   border-radius: 50%;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: var(--main-transition);
+  transition: var(--main-transition);
 }
-.switch__checkbox:checked + .switch__toggle {
-  background-color: pink;
+.toggle .switch__checkbox:checked + .switch__toggle {
+  background-color: var(--strong-cyan);
 }
-.switch__checkbox:checked + .switch__toggle:before {
+.toggle .switch__checkbox:checked + .switch__toggle:before {
   -webkit-transform: translateX(1.95rem);
   -ms-transform: translateX(1.95rem);
   transform: translateX(1.95rem);
@@ -208,3 +208,4 @@ input {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+/*# sourceMappingURL=index.HASH_REF_7ecf845c0afebce3fff7e35cae4303c5.css.map */
