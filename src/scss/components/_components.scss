@@ -1,2 +1,16 @@
 // imports
 @use "../abstracts/abstracts" as *;
+
+// toggle
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  &__option {
+    @include headingStyles;
+    color: color(lightGrayishBlue);
+    font-size: size(sm);
+  }
+}

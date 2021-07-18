@@ -17,3 +17,14 @@
   left: 0;
   width: 30%;
 }
+
+// header
+.header {
+  &__title {
+    @include headingStyles;
+    text-align: center;
+    font-size: size(xxl) + 1rem;
+    color: color(grayishBlue);
+    margin-bottom: 2rem;
+  }
+}
