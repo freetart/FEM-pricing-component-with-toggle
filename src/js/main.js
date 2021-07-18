@@ -1,4 +1,7 @@
 "use scrict";
+import AOS from "aos";
+import "../../node_modules/aos/dist/aos.css";
+AOS.init({ offset: 100, duration: 1000, once: true });
 
 const toggle = document.querySelector(".switch__checkbox");
 const basicPrice = document.querySelector("#basic-price");
