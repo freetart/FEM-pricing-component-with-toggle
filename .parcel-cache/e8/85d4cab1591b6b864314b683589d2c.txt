@@ -1,9 +1,9 @@
 20048
-72/home/habib/code/workspace/pricing-component-with-toggle/dist/index.html1626609009205872840 0
-83/home/habib/code/workspace/pricing-component-with-toggle/dist/index.4ee429df.js.map1626609009209206173 0
-81/home/habib/code/workspace/pricing-component-with-toggle/dist/bg-top.c30d830f.svg1626609009199206173 0
-84/home/habib/code/workspace/pricing-component-with-toggle/dist/index.ae4303c5.css.map1626609009209206173 0
-61/home/habib/code/workspace/pricing-component-with-toggle/dist1626609009209206173 1
+72/home/habib/code/workspace/pricing-component-with-toggle/dist/index.html1626614471339263961 0
+83/home/habib/code/workspace/pricing-component-with-toggle/dist/index.4ee429df.js.map1626614471342597294 0
+81/home/habib/code/workspace/pricing-component-with-toggle/dist/bg-top.c30d830f.svg1626614471335930627 0
+84/home/habib/code/workspace/pricing-component-with-toggle/dist/index.ae4303c5.css.map1626614471342597294 0
+61/home/habib/code/workspace/pricing-component-with-toggle/dist1626614471342597294 1
 90/home/habib/code/workspace/pricing-component-with-toggle/assets/design/desktop-preview.jpg1615322942000000000 0
 75/home/habib/code/workspace/pricing-component-with-toggle/assets/content.txt1626578366135536632 0
 63/home/habib/code/workspace/pricing-component-with-toggle/assets1626578366000000000 1
@@ -11,11 +11,11 @@
 72/home/habib/code/workspace/pricing-component-with-toggle/src/images/logo1626600068000000000 1
 71/home/habib/code/workspace/pricing-component-with-toggle/src/js/main.js1626600068562438316 0
 63/home/habib/code/workspace/pricing-component-with-toggle/src/js1626600068000000000 1
-72/home/habib/code/workspace/pricing-component-with-toggle/src/scss/layout1626607877115860976 1
-93/home/habib/code/workspace/pricing-component-with-toggle/src/scss/components/_components.scss1626609031299206409 0
+72/home/habib/code/workspace/pricing-component-with-toggle/src/scss/layout1626609454799210867 1
+93/home/habib/code/workspace/pricing-component-with-toggle/src/scss/components/_components.scss1626614583802598474 0
 86/home/habib/code/workspace/pricing-component-with-toggle/src/scss/abstracts/_base.scss1626602291595796745 0
 88/home/habib/code/workspace/pricing-component-with-toggle/src/scss/abstracts/_mixins.scss1626600900635780925 0
-75/home/habib/code/workspace/pricing-component-with-toggle/src/scss/abstracts1626602291595796745 1
+75/home/habib/code/workspace/pricing-component-with-toggle/src/scss/abstracts1626611649509234012 1
 65/home/habib/code/workspace/pricing-component-with-toggle/src/scss1626600068000000000 1
 106/home/habib/code/workspace/pricing-component-with-toggle/node_modules/posix-character-classes/package.json1492663308000000000 0
 93/home/habib/code/workspace/pricing-component-with-toggle/node_modules/posix-character-classes1626601163852450538 1
@@ -352,7 +352,7 @@
 105/home/habib/code/workspace/pricing-component-with-toggle/node_modules/es-abstract/2015/GetSubstitution.js499162500000000000 0
 102/home/habib/code/workspace/pricing-component-with-toggle/node_modules/es-abstract/2015/ObjectCreate.js499162500000000000 0
 101/home/habib/code/workspace/pricing-component-with-toggle/node_modules/es-abstract/2015/ArrayCreate.js499162500000000000 0
-71/home/habib/code/workspace/pricing-component-with-toggle/src/index.html1626607708772525917 0
+71/home/habib/code/workspace/pricing-component-with-toggle/src/index.html1626611744762568331 0
 103/home/habib/code/workspace/pricing-component-with-toggle/node_modules/es-abstract/2015/IsConstructor.js499162500000000000 0
 101/home/habib/code/workspace/pricing-component-with-toggle/node_modules/es-abstract/2015/SecFromTime.js499162500000000000 0
 99/home/habib/code/workspace/pricing-component-with-toggle/node_modules/es-abstract/2015/SameValue.js499162500000000000 0
@@ -3722,7 +3722,7 @@
 114/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/highlight/node_modules/supports-color1626601164095783874 1
 99/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/highlight/node_modules1626601159785783827 1
 86/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/highlight1626601164095783874 1
-76/home/habib/code/workspace/pricing-component-with-toggle/src/scss/components1626609031299206409 1
+76/home/habib/code/workspace/pricing-component-with-toggle/src/scss/components1626614583802598474 1
 109/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/compat-data/corejs2-built-ins.js456789000000000000 0
 106/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/compat-data/native-modules.js456789000000000000 0
 99/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/compat-data/plugins.js456789000000000000 0
@@ -5294,7 +5294,7 @@
 134/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-unique-selectors/node_modules/source-map/source-map.d.ts1492467891000000000 0
 126/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-unique-selectors/node_modules/source-map/LICENSE1492467890000000000 0
 131/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-unique-selectors/node_modules/source-map/package.json1506696119000000000 0
-84/home/habib/code/workspace/pricing-component-with-toggle/dist/bg-bottom.d9d882f9.svg1626609009199206173 0
+84/home/habib/code/workspace/pricing-component-with-toggle/dist/bg-bottom.d9d882f9.svg1626614471335930627 0
 101/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@parcel/runtime-browser-hmr/lib1626601166142450563 1
 105/home/habib/code/workspace/pricing-component-with-toggle/node_modules/caniuse-lite/data/features/touch.js499162500000000000 0
 128/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-unique-selectors/node_modules/source-map/README.md1506355788000000000 0
@@ -8264,7 +8264,7 @@
 126/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-discard-duplicates/node_modules/has-flag/license1496344655000000000 0
 111/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/types/lib/clone/cloneWithoutLoc.js456789000000000000 0
 111/home/habib/code/workspace/pricing-component-with-toggle/node_modules/core-js/features/dom-collections/index.js499162500000000000 0
-60/home/habib/code/workspace/pricing-component-with-toggle/src1626607708772525917 1
+60/home/habib/code/workspace/pricing-component-with-toggle/src1626611744762568331 1
 90/home/habib/code/workspace/pricing-component-with-toggle/node_modules/randomfill/.zuul.yml1501179389000000000 0
 102/home/habib/code/workspace/pricing-component-with-toggle/node_modules/core-js/modules/web.immediate.js499162500000000000 0
 98/home/habib/code/workspace/pricing-component-with-toggle/node_modules/uri-js/dist/esnext/util.d.ts499162500000000000 0
@@ -8697,7 +8697,7 @@
 108/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-normalize-string/dist/index.js499162500000000000 0
 117/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@babel/compat-data/corejs3-shipped-proposals.js456789000000000000 0
 98/home/habib/code/workspace/pricing-component-with-toggle/node_modules/core-js/es/string/replace.js499162500000000000 0
-79/home/habib/code/workspace/pricing-component-with-toggle/dist/index.4ee429df.js1626609009205872840 0
+79/home/habib/code/workspace/pricing-component-with-toggle/dist/index.4ee429df.js1626614471339263961 0
 89/home/habib/code/workspace/pricing-component-with-toggle/node_modules/detect-libc/LICENSE1499114711000000000 0
 136/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-reduce-transforms/node_modules/source-map/lib/array-set.js1496683247000000000 0
 121/home/habib/code/workspace/pricing-component-with-toggle/node_modules/posthtml/node_modules/posthtml-parser/dist/index.js499162500000000000 0
@@ -11039,7 +11039,7 @@
 106/home/habib/code/workspace/pricing-component-with-toggle/node_modules/ajv/lib/refs/json-schema-secure.json499162500000000000 0
 122/home/habib/code/workspace/pricing-component-with-toggle/node_modules/jsdom/lib/jsdom/living/nodes/HTMLBodyElement-impl.js499162500000000000 0
 109/home/habib/code/workspace/pricing-component-with-toggle/node_modules/core-js/internals/date-to-iso-string.js499162500000000000 0
-80/home/habib/code/workspace/pricing-component-with-toggle/dist/index.ae4303c5.css1626609009205872840 0
+80/home/habib/code/workspace/pricing-component-with-toggle/dist/index.ae4303c5.css1626614471339263961 0
 97/home/habib/code/workspace/pricing-component-with-toggle/node_modules/es-abstract/2016/ToInt16.js499162500000000000 0
 111/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@nodelib/fs.scandir/out/providers/sync.js499162500000000000 0
 132/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-normalize-unicode/node_modules/source-map/package.json1506696119000000000 0
@@ -18667,7 +18667,7 @@
 89/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@types/q/index.d.ts1625677361000000000 0
 128/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-normalize-timing-functions/node_modules/color-name1626601164289117209 1
 91/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@types/q/package.json1625677361000000000 0
-85/home/habib/code/workspace/pricing-component-with-toggle/src/scss/layout/_layout.scss1626607877115860976 0
+85/home/habib/code/workspace/pricing-component-with-toggle/src/scss/layout/_layout.scss1626609454799210867 0
 84/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@parcel/fs/lib1626601167075783906 1
 96/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-calc/dist/index.js499162500000000000 0
 86/home/habib/code/workspace/pricing-component-with-toggle/node_modules/@types/q/LICENSE1625677361000000000 0
@@ -19084,7 +19084,7 @@
 113/home/habib/code/workspace/pricing-component-with-toggle/node_modules/cssnano/node_modules/color-convert/route.js499162500000000000 0
 96/home/habib/code/workspace/pricing-component-with-toggle/node_modules/whatwg-url/lib/URL-impl.js499162500000000000 0
 90/home/habib/code/workspace/pricing-component-with-toggle/node_modules/cssnano/CHANGELOG.md499162500000000000 0
-91/home/habib/code/workspace/pricing-component-with-toggle/src/scss/abstracts/_variables.scss1626600951202448173 0
+91/home/habib/code/workspace/pricing-component-with-toggle/src/scss/abstracts/_variables.scss1626611649509234012 0
 89/home/habib/code/workspace/pricing-component-with-toggle/node_modules/cssnano/LICENSE-MIT499162500000000000 0
 109/home/habib/code/workspace/pricing-component-with-toggle/node_modules/loader-utils/lib/getRemainingRequest.js499162500000000000 0
 87/home/habib/code/workspace/pricing-component-with-toggle/node_modules/cssnano/README.md499162500000000000 0
@@ -19154,7 +19154,7 @@
 102/home/habib/code/workspace/pricing-component-with-toggle/node_modules/core-js/features/math/signbit.js499162500000000000 0
 95/home/habib/code/workspace/pricing-component-with-toggle/node_modules/is-plain-object/README.md1495914726000000000 0
 99/home/habib/code/workspace/pricing-component-with-toggle/node_modules/type-fest/source/entries.d.ts499162500000000000 0
-80/home/habib/code/workspace/pricing-component-with-toggle/dist/koala.e09c68a6.ico1626609009199206173 0
+80/home/habib/code/workspace/pricing-component-with-toggle/dist/koala.e09c68a6.ico1626614471335930627 0
 93/home/habib/code/workspace/pricing-component-with-toggle/node_modules/querystring/decode.d.ts499162500000000000 0
 137/home/habib/code/workspace/pricing-component-with-toggle/node_modules/postcss-modules-local-by-default/node_modules/has-flag/package.json1514920907000000000 0
 88/home/habib/code/workspace/pricing-component-with-toggle/node_modules/cssom/lib/CSSOM.js499162500000000000 0

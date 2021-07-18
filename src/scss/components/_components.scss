@@ -21,42 +21,44 @@
   display: inline-block;
   width: 4.5rem;
   height: 2.55rem;
-}
-
-.switch__checkbox {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.switch__toggle {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 2.55rem;
-  background: linear-gradient(color(gradientOne), color(gradientTwo));
-  -webkit-transition: $mainTransition;
   transition: $mainTransition;
-}
 
-.switch__toggle:before {
-  position: absolute;
-  content: "";
-  height: 1.95rem;
-  width: 1.95rem;
-  left: 0.3rem;
-  bottom: 0.3rem;
-  background-color: white;
-  border-radius: 50%;
-  -webkit-transition: $mainTransition;
-  transition: $mainTransition;
-}
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
 
-.switch__checkbox:checked + .switch__toggle {
-  background-color: pink;
+  &__checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  &__toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2.55rem;
+    background: linear-gradient(color(gradientOne), color(gradientTwo));
+    -webkit-transition: $mainTransition;
+    transition: $mainTransition;
+
+    &:before {
+      position: absolute;
+      content: "";
+      height: 1.95rem;
+      width: 1.95rem;
+      left: 0.3rem;
+      bottom: 0.3rem;
+      background-color: white;
+      border-radius: 50%;
+      -webkit-transition: $mainTransition;
+      transition: $mainTransition;
+    }
+  }
 }
 
 .switch__checkbox:checked + .switch__toggle:before {
@@ -121,17 +123,23 @@
   @include headingStyles;
   display: inline-block;
   text-align: center;
-  border: 0;
-  outline: 0;
   width: 100%;
   padding: 1.2rem 2rem;
   font-size: size(xxs);
   border-radius: 1rem;
   text-transform: uppercase;
+  transition: $mainTransition;
 
   &--primary {
     background: color(veryLightGrayishBlue);
     color: color(gradientTwo);
+    border: 0.1rem solid color(veryLightGrayishBlue);
+
+    &:hover,
+    &:focus {
+      background: transparent;
+      color: color(veryLightGrayishBlue);
+    }
   }
 
   &--secondary {
@@ -140,6 +148,12 @@
       color(gradientOne),
       color(gradientTwo)
     );
-    color: color(veryLightGrayishBlue);
+    color: color(white);
+    border: 0.1rem solid color(gradientOne);
+
+    &:hover,
+    &:focus {
+      opacity: 0.8;
+    }
   }
 }
